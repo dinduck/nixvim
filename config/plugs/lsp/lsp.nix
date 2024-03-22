@@ -4,7 +4,7 @@
     lsp = {
       enable = true;
       servers = {
-        rnix-lsp = { enable = true; };
+        nil_ls = { enable = true; };
       };
     };
   };
