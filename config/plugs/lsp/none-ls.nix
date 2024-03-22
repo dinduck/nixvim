@@ -30,8 +30,9 @@
             }
           '';
         };
-        stylua = {enable = true;};
         yamlfmt = {enable = true;};
+        clang_format = {enable = true;};
+        cmake_format = {enable = true;};
       };
     };
   };

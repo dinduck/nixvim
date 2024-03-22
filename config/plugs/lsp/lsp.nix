@@ -5,6 +5,10 @@
       enable = true;
       servers = {
         nil_ls = {enable = true;};
+        marksman = {enable = true;};
+        pyright = {enable = true;};
+        clangd = {enable = true;};
+        rust-analyzer = {enable = true;};
       };
       keymaps = {
         silent = true;
