@@ -1,8 +1,8 @@
 {
   imports = [
+    ./keys.nix
     ./set.nix
     ./plugs
-    ./keys.nix
     ./ui
   ];
 }
