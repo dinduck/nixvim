@@ -1,5 +1,6 @@
 {
-  plugins.lspkind = {
-    enable = true;
-  };
+  imports = [
+    ./lspkind.nix
+    ./cmp.nix
+    ];
 }
