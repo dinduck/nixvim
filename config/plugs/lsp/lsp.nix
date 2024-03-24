@@ -8,7 +8,11 @@
         marksman = {enable = true;};
         pyright = {enable = true;};
         clangd = {enable = true;};
-        rust-analyzer = {enable = true;};
+        rust-analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
       };
       keymaps = {
         silent = true;
