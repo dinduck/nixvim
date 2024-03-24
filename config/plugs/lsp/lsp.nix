@@ -8,6 +8,7 @@
         marksman = {enable = true;};
         pyright = {enable = true;};
         clangd = {enable = true;};
+        cmake = {enable = true;};
         rust-analyzer = {
           enable = true;
           installCargo = true;
