@@ -14,6 +14,7 @@
           installCargo = true;
           installRustc = true;
         };
+        sqls = {enable = true;};
       };
       keymaps = {
         silent = true;
