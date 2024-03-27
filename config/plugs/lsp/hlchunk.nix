@@ -10,4 +10,7 @@
       };
     })
   ];
+  extraConfigLua = ''
+    require("hlchunk").setup({})
+  '';
 }
